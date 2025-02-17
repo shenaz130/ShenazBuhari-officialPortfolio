@@ -20,7 +20,7 @@ body::before{
 
 
 .section-bg {
-    background-image: url('images/wall1.jpg');
+    background-image: url('wall1.jpg');
     background-size: cover;  /* Ensure the image covers the section */
     background-position: center;  /* Center the image */
     background-repeat: no-repeat; /* Prevent tiling */

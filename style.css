@@ -18,7 +18,15 @@ body::before{
     }
 }
 
-
+.card.text-dark {
+    font-size: 14px; /* Adjust as needed */
+}
+.card-title.text-dark {
+    font-size: 14px; /* Adjust as needed */
+}
+.row{
+    font-size: 14px;
+}
 .section-bg {
     background-image: url('wall1.jpg');
     background-size: cover;  /* Ensure the image covers the section */

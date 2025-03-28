@@ -1,0 +1,86 @@
+body::before{
+    display:block;
+    content: '';
+    height: 60px;
+
+}
+.fade-in-text {
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.card.text-dark {
+    font-size: 14px; /* Adjust as needed */
+}
+.card-title.text-dark {
+    font-size: 14px; /* Adjust as needed */
+}
+.row{
+    font-size: 14px;
+}
+.section-bg {
+    background-image: url('wall1.jpg');
+    background-size: cover;  /* Ensure the image covers the section */
+    background-position: center;  /* Center the image */
+    background-repeat: no-repeat; /* Prevent tiling */
+    height: 100vh;  /* Adjust height as needed */
+    color: white; /* Example text color for visibility */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+
+}
+/* p{
+    text-align: justify;
+} */
+
+.quote-color{
+    background-color: #1E3A8A;
+    
+}
+body {
+    font-family: 'Noto Serif', serif;
+}
+.align-left {
+    text-align: left;
+}
+.card {
+    box-shadow: 0px 4px 6px rgba(255, 255, 0, 0.5); /* Customize shadow here */
+}
+
+@media(min-width:768px){
+    .news-input{
+        width:50%;
+    }
+}
+
+/* Web (3 columns) */
+@media (min-width: 992px) {
+    .col-lg-4 {
+        margin-top: 20px;  /* Equal gap on top for all columns */
+    }
+}
+
+/* iPad (2 columns, 5 rows) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6 {
+        margin-top: 20px;  /* Equal gap on top for all columns */
+    }
+}
+
+/* Mobile (1 column) */
+@media (max-width: 767px) {
+    .col-12 {
+        margin-top: 20px;  /* Equal gap on top for all columns */
+    }
+}
